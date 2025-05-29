@@ -36,11 +36,13 @@ nav,p,section,article{
 }
 .hero{
     position: relative;
+    width: 100%;
+    height: auto;
 }
 .hero img{
     display: block;
-    width: 100%;
-    height: auto;
+    
+    
 }
 h1{
     position: absolute;
@@ -56,3 +58,9 @@ h1{
     float: right;
     width: 125px;
 }
+
+    
+    
+
+    
+    
