@@ -18,14 +18,18 @@ header{
 body{
     font-family: var(--body-font);
     color: var(--accent1-color);
+    display: flex;
+    flex-direction: column;
+
 }
 header,main,footer{
-    width: 840px;
+    width: 350px;
     margin: 0 auto;
 }
 h1,h2{
     font-family: var(--heading-font);
     color: var(--primary-color);
+    
 }
 nav,p,section,article{
     margin: 16px;
@@ -36,17 +40,19 @@ nav,p,section,article{
 }
 .hero{
     position: relative;
-    width: 100%;
-    height: auto;
+    
 }
 .hero img{
     display: block;
-    
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: block;
     
 }
 h1{
     position: absolute;
-    top: 20px;
+    top: 10px;
     width: 100%;
     padding: 16px;
     text-align: center;
@@ -57,7 +63,24 @@ h1{
 .hero article img{
     float: right;
     width: 125px;
+    position: absolute;
+    display: flex;
+
 }
+ article{
+    position: absolute;
+    top: 50px;
+    float: right;
+    text-align: center;
+    
+    
+ }   
+    
+    
+    
+    
+    
+    
 
     
     
