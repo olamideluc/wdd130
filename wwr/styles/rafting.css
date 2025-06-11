@@ -16,8 +16,17 @@ body{
     color: var(--accent1-color);
 }
 header,main,footer{
-    width: 400px;
+    width: 840px;
     margin: 0 auto;
+}
+header {
+    display: grid;
+    margin: 1rem auto;
+    grid-template-columns: auto 1fr; 
+    align-items: center; 
+    padding: 20px;
+    background-color: var(--primary-color);
+    width: 100%;
 }
 h1,h2{
     font-family: var(--heading-font);
@@ -27,43 +36,144 @@ nav,p,section,article{
     margin: 16px;
     padding: 8px;
 }
+nav {
+    display: flex;
+    justify-content: flex-end; 
+    gap: 50px; 
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
 .socialmedia a{
     text-decoration: none;
 }
 .hero{
     position: relative;
+    
 }
 .hero img{
-    display: block;
-    width: 100%;
     height: auto;
-    
+    width: 100%;
+    object-fit: cover;
 }
 h1{
     position: absolute;
-    top: 200px;
-    width: 50%;
-    padding-top: 5px;
-    text-align:center;
+    top: 160px;
+    left: 16.5%;
+    right: 15.3;
+    text-align: center;
+    width: 67%;
+    padding-top: 15px;
     background-color: rgba(212, 167, 177, 0.6);
 }
 article{
     position: absolute;
-    top: 240px;
-    padding-top: 15px;
+    top: 200px;
+    padding-top: 5px;
     text-align: center;
     color:black;
-    width: 40%;
-    background-color: rgba(130, 212, 187, 0.6); 
+    background-color: rgba(130, 212, 187, 0.6);
+    width: 67%;
+    left: 15.3%;
+    right: 0; 
 }
 article img{
     float: right;
     width: 100px;
-    justify-content: space-around;
+    text-align: right;
 }
 article p{
     text-align: left;
 }
+.Adventures{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    gap: 40px;
+    text-align: center;
+}
+.Adventures figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+    width: 100%;
+}
+figcaption {
+    margin-top: 8px;
+    font-weight: bold;
+}
+.Adventures h2{
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    padding-top: 590px;
+    left: 40%;
+    object-fit: cover;
+}
+img{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+footer {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    padding: 15px;
+    background-color: var(--primary-color);
+    width: 100%;
+}
+.socialmedia {
+    display: flex;
+    gap: 15px; 
+}
+.socialmedia a img {
+    height: 30px; 
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+    
+    
+    
+    
+   
+    
+
+    
+    
+    
+
+
+
+
+
+
+
+    
     
     
 
