@@ -44,7 +44,7 @@ nav a:hover {
 .cta {
     text-align: center;
     padding: 30px;
-    background-color: var(--accent2-color);
+    background-color: var(--secondary-color);
     color: white;
 }
 .cta h1 {
