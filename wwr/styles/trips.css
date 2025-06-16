@@ -1,0 +1,128 @@
+:root{
+    --primary-color:#82D4BB;
+    --secondary-color:#82AC9F;
+    --accent1-color:#829298;
+    --accent2-color:#94778B;
+    --heading-font: "Lato", sans-serif;
+    --body-font: "outfit", sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:var(--primary-color);
+    padding: 15px;
+}
+header img {
+    max-width: 100px;
+}
+nav {
+    display: flex;
+    gap: 15px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+nav a:hover {
+    background-color: #0077aa;
+    border-radius: 5px;
+}
+.cta {
+    text-align: center;
+    padding: 30px;
+    background-color: #0077aa;
+    color: white;
+}
+.cta h1 {
+    font-size: 28px;
+}
+.cta p {
+    font-size: 18px;
+}
+.cta-button {
+    display: inline-block;
+    background-color: #004466;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.cta-button:hover {
+    background-color: #005599;
+}
+.trip-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+.trip {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+.trip img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+.trip-table {
+    margin: 30px auto;
+    width: 90%;
+    text-align: center;
+}
+.trip-table h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #004466;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: #004466;
+    color: white;
+}
+footer {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    padding: 10px;
+    background-color: var(--primary-color);
+    width: 100%;
+    gap: 10px;
+    
+}
+.socialmedia {
+    display: flex;
+    gap: 15px; 
+}
+.socialmedia a img {
+    height: 30px; 
+}
+
+footer a:hover {
+    color: #ffcc00;
+}
